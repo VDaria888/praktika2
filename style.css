@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .box{
+   border:  3px solid green;
+   position: relative;
+   overflow: hidden;
+ }
+ .box img{
+   display: block;
+ }
+ header {
+    background-color: rgb(155, 205, 252);
+    display: grid;
+    row-gap: 20px;
+    padding: 12px 2vw;
+ }
+ header div.title{
+    color: red;
+ }
+ header>div{
+    display: grid;
+    grid-template-columns: repeat(30,2fr);
+    align-items: center;
+ }
+ header div.icon img{
+  height: 60px;
+ }
+ 
+ main section.h{
+    background-image:url(../images/закат.webp) ;
+    height: 45vw;
+    background-size: cover;
+ }
+ main section.h div.w h1{
+    color: white;
+    text-align: center;
+ }
+ main.l section.ic{
+   background-image: url(../images/blue.jpg);
+   padding: 30px;
+ }
+ main.l section.ic h3,h2{
+   color: rgb(10, 95, 21);
+ }
+ a{
+    color: white;
+    text-decoration: none;
+    display: grid;
+ }
+ main section.h div.w ul{
+    text-align: center;
+    padding: 8px 10px;
+ }
+ main.l section.ic img{
+   margin-left: 0;
+   width: 460px;
+   height: 300px;
+ }
+ main.l div.text{
+   text-align: center;
+ }
+ main.l div.text img{
+height: 150px;
+width: 140px;
+ }
+ footer{
+   background-color: rgb(155, 205, 252);
+    display: grid;
+    row-gap: 20px;
+    padding: 12px 2vw;
+ }
+header div.icon a{
+   color: black;
+}
