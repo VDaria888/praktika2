@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ header {
+    background-color: rgb(155, 205, 252);
+    display: grid;
+    row-gap: 20px;
+    padding: 12px 2vw;
+ }
+ header div.title{
+    color: red;
+ }
+ header>div{
+    display: grid;
+    grid-template-columns: repeat(30,2fr);
+    align-items: center;
+ }
+ header div.icon img{
+  height: 60px;
+ }
+ h1{
+    color: red;
+    padding: 160px;
+   text-align: center;
+   text-shadow: 1px 3px 2px rgb(71, 3, 3);
+ }
+ button{
+    left: 240px;
+    border-color:rgb(155, 205, 252) ;
+    background-color:rgb(155, 205, 252);
+    color: red;
+padding: 20px 90px;
+ }
+ button:hover {
+	background: rgba(0,0,0,0);
+	color: red;
+}
+
+ 
